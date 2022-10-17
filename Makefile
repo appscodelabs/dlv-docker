@@ -3,7 +3,7 @@ SHELL=/bin/bash -o pipefail
 REGISTRY   ?= appscode
 BIN        ?= dlv
 IMAGE      := $(REGISTRY)/$(BIN)
-VERSION    ?= 1.8.3
+VERSION    ?= 1.9.1
 SRC_REG    ?=
 
 DOCKER_PLATFORMS := linux/amd64 linux/arm64
