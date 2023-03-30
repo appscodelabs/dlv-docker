@@ -1,9 +1,9 @@
 SHELL=/bin/bash -o pipefail
 
-REGISTRY   ?= appscode
+REGISTRY   ?= ghcr.io/appscode
 BIN        ?= dlv
 IMAGE      := $(REGISTRY)/$(BIN)
-VERSION    ?= 1.9.1
+VERSION    ?= 1.20.1
 SRC_REG    ?=
 
 DOCKER_PLATFORMS := linux/amd64 linux/arm64
