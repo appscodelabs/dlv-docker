@@ -3,5 +3,5 @@
 [Delve](https://github.com/go-delve/delve) Docker image used for building AppsCode projects
 
 ```console
-docker pull ghcr.io/appscode/dlv:1.25.1
+docker pull ghcr.io/appscode/dlv:1.25.2
 ```
